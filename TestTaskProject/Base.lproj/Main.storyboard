@@ -34,13 +34,13 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcj-k5-Lpi">
-                                            <rect key="frame" x="150" y="82" width="209" height="22"/>
+                                            <rect key="frame" x="150" y="74" width="209" height="22"/>
                                             <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dax-aF-c51">
-                                            <rect key="frame" x="150" y="47" width="188" height="21"/>
+                                            <rect key="frame" x="150" y="37" width="188" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="13K-Hy-mrh"/>
                                             </constraints>
@@ -53,11 +53,11 @@
                                         <constraint firstItem="0co-i3-IYu" firstAttribute="leading" secondItem="gi7-6E-Til" secondAttribute="leadingMargin" constant="14" id="A6X-y7-hyn"/>
                                         <constraint firstItem="Hcj-k5-Lpi" firstAttribute="leading" secondItem="0co-i3-IYu" secondAttribute="trailing" constant="30" id="E8M-oX-BAK"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Hcj-k5-Lpi" secondAttribute="trailing" constant="16" id="N5H-Yz-E4c"/>
-                                        <constraint firstItem="Dax-aF-c51" firstAttribute="top" secondItem="gi7-6E-Til" secondAttribute="topMargin" constant="36" id="YfH-PW-mp9"/>
+                                        <constraint firstItem="Dax-aF-c51" firstAttribute="top" secondItem="gi7-6E-Til" secondAttribute="topMargin" constant="26" id="YfH-PW-mp9"/>
                                         <constraint firstItem="Dax-aF-c51" firstAttribute="leading" secondItem="Hcj-k5-Lpi" secondAttribute="leading" id="Z9c-A3-2sf"/>
-                                        <constraint firstItem="0co-i3-IYu" firstAttribute="bottom" secondItem="Hcj-k5-Lpi" secondAttribute="bottom" id="eTU-Eq-Jfs"/>
+                                        <constraint firstItem="0co-i3-IYu" firstAttribute="bottom" secondItem="Hcj-k5-Lpi" secondAttribute="bottom" constant="8" id="eTU-Eq-Jfs"/>
                                         <constraint firstItem="0co-i3-IYu" firstAttribute="centerY" secondItem="gi7-6E-Til" secondAttribute="centerY" id="gdD-5N-ben"/>
-                                        <constraint firstItem="Hcj-k5-Lpi" firstAttribute="top" secondItem="Dax-aF-c51" secondAttribute="bottom" constant="14" id="irF-I6-9sg"/>
+                                        <constraint firstItem="Hcj-k5-Lpi" firstAttribute="top" secondItem="Dax-aF-c51" secondAttribute="bottom" constant="16" id="irF-I6-9sg"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="Dax-aF-c51" secondAttribute="trailing" constant="21" id="qoZ-wN-2QD"/>
                                         <constraint firstItem="0co-i3-IYu" firstAttribute="top" secondItem="gi7-6E-Til" secondAttribute="top" constant="14" id="tRJ-b3-dG8"/>
                                     </constraints>
