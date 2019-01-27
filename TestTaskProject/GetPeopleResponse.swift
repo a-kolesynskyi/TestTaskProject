@@ -11,7 +11,7 @@ import Foundation
 struct GetPeopleResponse {
     
     let users: [User]
-    
+    // calling json data
     init(json: JSON) throws {
         guard let results = json["results"] as? [JSON] else { throw NetworkingError.badNetworkingStuff }
         let users = results.map{ User(json: $0) }.compactMap{ $0 }

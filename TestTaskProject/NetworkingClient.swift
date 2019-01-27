@@ -15,7 +15,7 @@ class NetworkingClient {
     
     static let shared = NetworkingClient()
     private init() {}
-    
+    // getting data from randomuser.me 
     func getPeople(success successBlock: @escaping (GetPeopleResponse) -> Void) {
         Alamofire.request("https://randomuser.me/api?results=20").responseJSON { response in
             guard let json = response.result.value as? JSON else { return }

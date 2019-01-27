@@ -16,7 +16,7 @@ struct User {
     let phone: String
     let dateOfBirth: String
 
-
+    //  which kind of data should be used
     init?(json: [String: Any]) {
         guard let name = json.dict("name") else { return nil }
         guard let first = name.string("first") else { return nil }
